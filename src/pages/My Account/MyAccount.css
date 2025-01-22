@@ -17,7 +17,7 @@
     background-position: left;
     background-repeat: no-repeat;
   }
-  
+
   .auth-container,
   .logged-in-container {
     /* width: 200px; */
@@ -27,10 +27,22 @@
     padding: 20px 50px;
     transition: all 5s ease-in-out;
   }
+
+  .my-account h2{
+    width: 200%;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
   
-  .auth-container h2,
   .logged-in-container p {
     margin-bottom: 15px;
+  }
+
+   .my-account .role{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
   }
   
   .auth-container form {
