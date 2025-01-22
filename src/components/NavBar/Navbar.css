@@ -1,4 +1,4 @@
-.navbar {
+.car-rent-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,14 +12,14 @@
     background-color: antiquewhite;
 }
 
-.navbar .logo {
+.car-rent-navbar .logo {
     color: #333;
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
 }
 
-.navbar ul {
+.car-rent-navbar ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -27,17 +27,17 @@
     margin-right: 20px;
 }
 
-.navbar ul li {
+.car-rent-navbar ul li {
     margin: 0 15px;
 }
 
-.navbar ul li a {
+.car-rent-navbar ul li a {
     color: #333;
     text-decoration: none;
     font-size: 17px;
 }
 
-.navbar ul li a:hover {
+.car-rent-navbar ul li a:hover {
     color: #f0c040;
 }
 
@@ -57,18 +57,18 @@
 }
 
 /* Active link color */
-.navbar ul li .active-link {
+.car-rent-navbar ul li .active-link {
     color: #f0c040;  
 }
 
-.navbar ul li a:hover {
+.car-rent-navbar ul li a:hover {
     color: #f0c040;
 }
 
 
 /* Mobile styles */
 @media (min-width: 300px) and (max-width: 1100px){
-    .navbar ul {
+    .car-rent-navbar ul {
         display: none;
         flex-direction: column;
         width: 100%;
@@ -79,16 +79,16 @@
         padding: 10px 0;
     }
 
-    .navbar ul.active {
+    .car-rent-navbar ul.active {
         display: flex;
     }
 
-    .navbar ul li {
+    .car-rent-navbar ul li {
         margin: 10px 0;
         text-align: center;
     }
 
-    .navbar ul li a {
+    .car-rent-navbar ul li a {
         font-size: 18px;
     }
 
